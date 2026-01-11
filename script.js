@@ -4,7 +4,7 @@ const projects = [
         title: "Portfolio Personal",
         description: "Portafolio moderno y elegante construido con HTML, CSS y JavaScript. Diseño totalmente responsive",
         tags: ["HTML5", "CSS3", "JavaScript", "Responsive"],
-        link: "https://github.com/johanvillamarin/portfolio",
+        link: "https://github.com/Johanvillamarin/Portfolio",
         demo: "#"
     },
     {
