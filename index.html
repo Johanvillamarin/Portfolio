@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Johan Villamarin - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav-container">
+      <a href="#" class="logo">JV.</a>
+
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-item">Inicio</a></li>
+        <li><a href="#projects" class="nav-item">Proyectos</a></li>
+        <li><a href="#about" class="nav-item">Sobre Mí</a></li>
+        <li>
+          <a href="#contact" class="btn btn-outline" style="font-size: 0.75rem; padding: 0.5rem 1rem;">
+            Contactar
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <!-- Background Glows -->
+      <div class="bg-blob blob-1"></div>
+      <div class="bg-blob blob-2"></div>
+
+      <div class="hero-content animate-fade-in">
+        <h1 class="hero-title">
+          <span class="text-gradient">Johan Villamarin</span>
+        </h1>
+
+        <p class="hero-desc">
+          Desarrollador de Software apasionado por crear experiencias digitales elegantes y funcionales.
+          Especializado en construir soluciones modernas y escalables.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            Ver Proyectos
+          </a>
+          <a href="https://github.com/johanvillamarin" target="_blank" rel="noopener noreferrer" class="btn btn-outline"
+            style="gap: 0.5rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+              </path>
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="about" class="section container">
+      <h2 class="section-title">Habilidades Técnicas</h2>
+      <div id="skills-container" class="skills-grid">
+        <!-- Javascript populates this -->
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section container">
+      <h2 class="section-title">Proyectos Destacados</h2>
+      <div id="projects-container" class="projects-grid">
+        <!-- Javascript populates this -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section container contact-container">
+      <h2 class="contact-title">Pongámonos en Contacto</h2>
+      <p class="contact-text">
+        Actualmente estoy en búsqueda de nuevas oportunidades.
+      Si necesitas contactarme, estare encantado de responder.
+      </p>
+
+      <a href="mailto:johanvillamarin@example.com" class="btn btn-primary"
+        style="padding: 1rem 2rem; font-size: 1.125rem;">
+        Escribir un Correo
+      </a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Johan Villamarin. Construido con HTML, CSS, & JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
